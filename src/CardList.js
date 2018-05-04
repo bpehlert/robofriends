@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import './CardList.css';
 
 const CardList = ({ robots }) => {
   if (robots.length > 0) {
@@ -23,7 +24,7 @@ const CardList = ({ robots }) => {
   }
     return (
       <div>
-        <p>No Robofriends found.</p>
+        <p className = "text">No Robofriends found.</p>
       </div>
     );
 }
