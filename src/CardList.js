@@ -22,11 +22,7 @@ const CardList = ({ robots }) => {
       </div>
     );
   }
-    return (
-      <div>
-        <p className = "text">No Robofriends found.</p>
-      </div>
-    );
+    return <p className = "text">No Robofriends found.</p>
 }
 
 export default CardList;
