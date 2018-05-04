@@ -20,7 +20,19 @@ export const robots = [
   {
     id: 4,
     name: "Matt Ehlert",
-    username: "@me",
+    username: "meme",
     email: 'matt@usekeystone.com'
+  },
+  {
+    id: 5,
+    name: "Steve Whitehead",
+    username: "stevenwhitey",
+    email: 'whitestevenhead@gmail.com'
+  },
+  {
+    id: 6,
+    name: "Buzz McCalister",
+    username: "buzzbuzz",
+    email: 'buzz1234@gmail.com'
   },
 ]
