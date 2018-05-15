@@ -4,7 +4,7 @@ import './CardList.css';
 
 const CardList = ({ robots }) => {
   return !robots.length ?
-    <p className = "text">No Robofriends found.</p> :
+    <p className="result">No Robofriends found.</p> :
       (
         <div>
           {
